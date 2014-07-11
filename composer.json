@@ -1,0 +1,15 @@
+{
+    "name": "vmwinckler/yii-jasper-client",
+    "description": "Only a Wrapper for PHP Client Jasper",
+    "keywords": ["yii", "jasper", "extension", "client"],
+    "authors": [
+        {
+            "name": "Vinícius Millão Winckler",
+            "email": "vini.rs@gmail.com",
+            "homepage": "http://github.com/vmwinckler/"
+        }
+    ],
+    "require": {
+        "jaspersoft/rest-client": "*"
+    }
+}
