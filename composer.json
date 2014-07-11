@@ -1,18 +1,19 @@
 {
     "name": "vmwinckler/yii-jasper-client",
     "description": "Only a Wrapper for PHP Client Jasper",
-    "keywords": ["yii", "jasper", "jasperreports", "jaspersoft", "jasper-reports", "reporting", "extension", "client"],
     "license": "LGPL-3.0",
-    "homepage": "http://github.com/vmwinckler/yii-jasper-client/",
     "authors": [
         {
             "name": "Vinícius Millão Winckler",
-            "email": "vini.rs@gmail.com",
-            "homepage": "http://github.com/vmwinckler/"
+            "email": "vini.rs@gmail.com"
         }
     ],
+    "homepage": "http://github.com/vmwinckler/yii-jasper-client/",
+    "keywords": ["yii", "jasper", "jasperreports", "jaspersoft", "jasper-reports", "reporting", "extension", "client"],
     "require": {
         "php": ">=5.3.0",
+        "yiisoft/yii": "1.1.*",
+        "ext-curl": "*",
         "jaspersoft/rest-client": "*"
     }
 }
